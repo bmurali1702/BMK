@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MURALI KRISHNA</title>
+</head>
+<body>
+    <script type="text/javascript">
+   var j;
+   for(var i=0;i<arr.length;i++)
+   {
+    for(j=i+1;j<arr.length;j++)
+    {
+      if(arr[i]<=arr[j])
+        break;
+    }
+      if(j==arr.length)
+        document.writeln(""+arr[i]);
+   }
+    </script>
+</body>
+</html>
